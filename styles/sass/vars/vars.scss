@@ -1,0 +1,65 @@
+@import "./icons.scss";
+
+// theme colors
+$color-01: #C6AA76;
+$color-02: #E2C192;
+
+//gray scale
+$gray-0: #FFFFFF;
+$gray-1: #F8F8F8;
+$gray-2: #C7C7C7;
+$gray-3: #878787;
+$gray-4: #5C5C5C;
+$gray-5: #434343;
+$gray-placeholder: #919191;
+
+
+$black: #000000;
+
+//breakpoints
+$large: 1360px;
+$medium: 1024px;
+$small: 768px;
+
+//mixins
+@mixin font-300($size, $color: $color-02) {
+    font-size: $size;
+    font-weight: 300;
+    color: $color;
+}
+
+@mixin font-400($size, $color: $color-02) {
+    font-size: $size;
+    font-weight: 400;
+    color: $color;
+}
+  
+@mixin font-500($size, $color: $color-02) {
+    font-size: $size;
+    font-weight: 500;
+    color: $color;
+}
+  
+@mixin font-600($size, $color: $color-02) {
+    font-size: $size;
+    font-weight: 600;
+    color: $color;
+}
+  
+@mixin font-700($size, $color: $color-02) {
+    font-size: $size;
+    font-weight: 700;
+    color: $color;
+}
+  
+@mixin font-800($size, $color: $color-02) {
+    font-size: $size;
+    font-weight: 800;
+    color: $color;
+}
+  
+@mixin font-900($size, $color: $color-02) {
+    font-size: $size;
+    font-weight: 900;
+    color: $color;
+}
